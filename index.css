@@ -7,7 +7,8 @@ html{
 }
 body{
     font-family: 'SamsungOne',arial,sans-serif;
-    color: #333
+    color: #333;
+    background-color: #eaeaea;
 }
 #r{
     display: flex;
@@ -24,7 +25,7 @@ font-size: small;
 }
 
 .row div:hover{
-    border-bottom: 2px solid black;
+    
     cursor: pointer;
 }
 #pride{
@@ -41,7 +42,11 @@ font-size: 1.5rem;
 .card{
     text-align: center;
      border: none;
+     
 }
 /* .shadow-lg{
 padding-left: 7%;
+} */
+/* .card :hover{
+    padding: 5px;
 } */
