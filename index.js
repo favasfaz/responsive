@@ -1,4 +1,5 @@
-function show(){
-    var inp=document.getElementById("anthada").innerHTML
-    inp=""
-}
+$(document).ready(function(){
+$(".btn").click(function(){
+$(this).text('Added to cart')
+})
+})
